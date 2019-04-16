@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Flyer</title>
+</head>
+<!-- For the beginning part of the Event Page -->
+<body>
+    <div class="container-fluid esas-class pb-4">
+        <div class="row">
+            <div class="container text-center title">
+                <div class="row">
+                    <div class="fest-date fest col-4">
+                        <p class="m-0">JUNE 3-5, 2016 PIER 9, SAN JUAN BAY</p>
+                    </div>
+                    <div class="fest-name fest col-8">
+                        <p class="m-0">OLD SAN JUAN MUSIC FESTIVAL</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar implementation in Event page -->
+        <div class="row">
+            <div class="container">
+                <nav class="navbar navbar-default navbar-expand-sm justify-content-center">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#line-up">LINEUP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tickets">TICKET</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">INFO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">GETTING THERE</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>  
+        <!-- Image of the Event page -->
+        <div class="row">
+            <div class="col">
+                <div class="container text-center">
+                    <img class="mt-2" src="https://ichef.bbci.co.uk/news/976/cpsprodpb/F8C9/production/_106398636_mediaitem106398635.jpg" alt="">    
+                </div>
+            </div>
+        </div>
+        <div class="row" id="tickets">
+            <div class="col">
+                <div class="container text-center">
+                    <button class="btn btn-primary btn-block" id="im-button">BUY TICKETS</button>
+                </div>
+            </div>
+        </div>
+        <!-- LINEUP -->
+        <div class="row" id="line-up">
+            <div class="col">
+                <div class="container text-center p-0">
+                    <h2 class="m-0 p-3">LINEUP</h2>
+                </div>
+            </div>
+        </div>
+        <!-- 3 Events with dates and contents -->
+        <div class="row text-center">
+            <div class="container mb-0" >
+                <div class="row mb-0">
+                    <div class="col-4 p-0">
+                        <div class="first-event" id="first-event">
+                            <div class="event-title p-2">
+                                <h2 class="m-1 p-2">Fridat, June 3</h2>
+                            </div>
+                            <div class="event-text">
+                                <p class="m-0 p-4" >
+                                    THE STROKES OF MONSTERS AND MEN  BECK ROBYN  JAMIE XX  BLOCKPARTY  MATT AND KIM  DUKE DUMONT  ELLE KING THE LONDON SOULS  ADELLE 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 p-0 ">
+                        <div class="second-event" id="second-event">
+                            <div class="event-title p-2">
+                                <h2 class="m-1 p-2">Saturday, June 4</h2>
+                            </div>
+                            <div class="event-text">
+                                <p class="m-0 p-4">
+                                    THE KILLERS  M83  HAIM  MIKE SNOW  MIGUEL PURITY EINR  DE LA SOUL  LORD HURON  MAC MILLER AGAINST ME!  CATFISH NAD BOTTLEMEN  MISTERWIVES  NOTHING
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 p-0 ">
+                        <div class="third-event" id="third-event">
+                            <div class="event-title p-2">
+                                <h2 class="m-1 p-2">Sunday, June 5</h2>
+                            </div>
+                            <div class="event-text">
+                                <p class="m-0 pb-4">
+                                    KANYE WEST  DEATH CAB FOR CUTE  CHVRCHES  TWO DOOR CINEMA CLUB  CHET FAKER  GARY CLARK FR.  EAGLES OF DEATH METAL  THOMAS JACK  COLD WAR KIDS  VINCE STAPLES  GALANTIS  VIC MENSA  BETTY WHO  WHTINEY  MATT AND KIM
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Reqeusted popups with 4 different images -->
+        <div class="row ">
+            <div class="container text-center" id="first-event-cont">
+                <div class="well row first-event">
+                    <section class="event-images">
+                        <img src="image.png" class="event-image" alt="">
+                        <img src="image.png" class="event-image" alt="">
+                        <img src="image.png" class="event-image" alt="">
+                        <img src="image.png" class="event-image" alt="">
+                    </section>
+                </div>
+            </div>
+            <div class="container text-center" id="second-event-cont">
+                <div class="well row second-event" >
+                    <section class="event-images">
+                        <img src="image.png" class="event-image" alt="">
+                        <img src="image.png" class="event-image" alt="">
+                        <img src="image.png" class="event-image" alt="">
+                        <img src="image.png" class="event-image" alt="">
+                    </section>
+                </div>
+            </div>
+            <div class="container text-center" id="third-event-cont">
+                <div class="well row third-event" >
+                    <section class="event-images">
+                        <img src="image.png" class="event-image" alt="">
+                        <img src="image.png" class="event-image" alt="">
+                        <img src="image.png" class="event-image" alt="">
+                        <img src="image.png" class="event-image" alt="">
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Library importing for Bootstrap related to bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- JQuery and Javascript file import -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

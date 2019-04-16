@@ -1,0 +1,100 @@
+body{
+    background-color: white;
+
+}
+.esas-class{
+    background-color: purple;
+}
+.container{
+    background-color: white;
+
+}
+.title{
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    margin: auto;
+}
+.fest{
+    color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    padding: 1rem;
+    line-height: 1.2rem;
+}
+.fest-date{
+    background-color:  #2B3E51;
+}
+.fest-name{
+    background-color: #C23824;
+}
+.title p{
+    margin-bottom: 0;
+}
+.main-page{
+    background-color: blue;
+}
+.navbar-default {
+    background-color: #2e96df;
+    border-color: blue;
+    border-bottom: 5px solid #237ebb;
+}
+.nav-link{
+    color: white;
+}
+img{
+    width: 100%;
+    margin: auto;
+}
+.first-event{
+    background-color: #1fcf6d;
+}
+.first-event:hover{
+    cursor: pointer;
+}
+.second-event{
+    background-color: #2e96df;
+}
+.second-event:hover{
+    cursor: pointer;
+}
+.third-event{
+    background-color: #ea4b35;
+}
+.third-event:hover{
+    cursor: pointer;
+}
+#im-button{
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-bottom: 5px solid #c93725;
+    border-radius: 0;
+    border-color: #c93725;
+    background-color: #ea4b35;
+}
+.event-title h2{
+    color: white;
+    background-color: #f1c700; 
+    border-bottom: 5px solid #e1a026;
+}
+.event-text p{
+    color:white;
+}
+.event-image{
+    width: 5rem;
+    margin: auto;
+}
+.event-images{
+    display: flexbox;
+    margin: auto;
+}
+#first-event-cont{
+    display: none;
+}
+#second-event-cont{
+    display: none;
+}
+#third-event-cont{
+    display: none;
+}
